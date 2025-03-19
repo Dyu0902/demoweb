@@ -1,31 +1,2457 @@
+
+
+<style>
+.form-wrapper {
+   /* width: 340px;*/
+    padding: 13px 0 20px;
+    margin: 0
+}
+
+.form-wrapper input {
+    width: 130px;
+    height: 25px;
+    padding: 10px 15px;
+    float: left;
+    font: 700 15px open sans condensed,sans-serif;
+    border: 0;
+    background: #f7f7f7;
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px
+}
+
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset
+}
+
+.form-wrapper input::-webkit-input-placeholder {
+    color: #999;
+    font-weight: 400;
+    font-style: italic
+}
+
+.form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: 400;
+    font-style: italic
+}
+
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: 400;
+    font-style: italic
+}
+
+.form-wrapper button {
+    overflow: visible;
+    position: relative;
+   /* float: right;*/
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 25px;
+    width: 20px;
+    font: bold 12px/12px 'lucida sans','trebuchet MS','Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #0B3F64;
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3)
+}
+
+.form-wrapper button:hover {
+    background: #337ab7
+}
+
+.form-wrapper button:active,.form-wrapper button:focus {
+    background: #337ab7
+}
+
+.form-wrapper button:before {
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent  #0B3F64 transparent;
+    top: 6px;
+    left: -6px
+}
+
+.form-wrapper button:hover:before {
+    border-right-color: #337ab7
+}
+
+.form-wrapper button:focus:before {
+    border-right-color: #337ab7
+}
+
+.form-wrapper button::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width:768px) and (-webkit-min-device-pixel-ratio:2) {
+    .search-bar input[type=text] {
+        width:135px
+    }
+
+    .form-wrapper {
+        width: 225px
+    }
+
+    .form-wrapper input {
+        width: 105px
+    }
+
+    .form-wrapper button {
+        width: 90px
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width:1025px) {
+    .search-bar input[type=text] {
+        width:135px
+    }
+
+    .form-wrapper {
+        width: 225px
+    }
+
+    .form-wrapper input {
+        width: 105px
+    }
+
+    .form-wrapper button {
+        width: 90px
+    }
+}
+</style>
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CHRIST UNIVERSITY</title>
+
+<meta name="keywords" content="CHRIST UNIVERSITY" />
+<meta name="description" content="CHRIST UNIVERSITY" />
+
+<meta property="og:title" content="CHRIST UNIVERSITY" />
+<meta property="og:description" content="CHRIST UNIVERSITY" />
+<meta property="og:url" content="https://christuniversity.in/" />
+<meta property="og:image" content="https://christuniversity.in/images/sharingLogo.jpg" />
+<meta property="og:type" content="website">
+
+     
+<link href="https://christuniversity.in/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+<link href="https://christuniversity.in/css/common-styles.css" type="text/css" rel="stylesheet"/>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155899873-1"></script>
 <script>
-dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
-dataLayer.push({
-  event: "view_item",
-  ecommerce: {
-    item_list_id: "related_products",
-    item_list_name: "Related products",
-    items: [
-     {
-      item_id: "SKU_12345",
-      item_name: "Stan and Friends Tee",
-      affiliation: "Google Merchandise Store",
-      coupon: "SUMMER_FUN",
-      discount: 2.22,
-      index: 0,
-      item_brand: "Google",
-      item_category: "Apparel",
-      item_category2: "Adult",
-      item_category3: "Shirts",
-      item_category4: "Crew",
-      item_category5: "Short sleeve",
-      item_list_id: "related_products",
-      item_list_name: "Related Products",
-      item_variant: "green",
-      location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
-      price: 10.03,
-      quantity: 3
-    }]
-  }
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155899873-1');
+</script>
+
+
+<!--div sliders-->
+<link rel="stylesheet" href="https://christuniversity.in/css/owl.carousel.css">
+<link rel="stylesheet" href="https://christuniversity.in/css/owl.theme.css"> 
+<!--div sliders-->
+
+<!--course-details page css-->
+
+<!--main banner slider-->
+<!--main banner slider-->
+<!--styles-->
+<link href="https://christuniversity.in/css/center-styles.css" rel="stylesheet">
+
+<link href="https://christuniversity.in/css/center-responsive.css" type="text/css" rel="stylesheet"/>
+<link href="https://christuniversity.in/css/common-responsive.css" type="text/css" rel="stylesheet"/>
+
+
+
+
+
+<!--div sliders-->
+<link rel="stylesheet" href="https://christuniversity.in/css/owl.carousel.css">
+<link rel="stylesheet" href="https://christuniversity.in/css/owl.theme.css"> 
+<!--div sliders-->
+
+
+
+<!--icons-->
+<link href="https://christuniversity.in/css/line-awesome.min.css" type="text/css" rel="stylesheet"/>
+<link href="https://christuniversity.in/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+<!--icons-->
+<!--mega menu-->
+<link href="https://christuniversity.in/css/mega-menu.css" type="text/css" rel="stylesheet"/>
+<!--mega menu-->
+<!--styles-->
+<!--Fist menu bar-->
+<link href="https://christuniversity.in/css/nav-bars_1.css" type="text/css" rel="stylesheet"/>
+<link href="https://christuniversity.in/css/nav-bars_2.css" type="text/css" rel="stylesheet"/>
+
+<!--Tab vertical slider-->
+<link href="https://christuniversity.in/css/initcarousel.css" type="text/css" rel="stylesheet"/>
+<!--Tab vertical slider-->
+
+<!--Fist menu bar-->
+<!--gallery popup-->
+<link href="https://christuniversity.in/css/lightgallery.css" rel="stylesheet">
+<!--gallery popup-->
+<link rel="stylesheet" type="text/css" href="https://christuniversity.in/css/jquery.datetimepicker.css"/ >
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11481336606"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11481336606');
+</script>
+
+
+</head>
+
+<body>
+<h1>Dyuthidhara</h1>
+<div style="border-top:1px solid #fff;"></div>
+<div class=" headerr" id="myHeader">  
+<!--<nav>-->
+ <div class="to-p-hde-r">
+<section id="header-logo"> 
+	<div class="container-fluid max-w">
+    	<div class="col-lg-2 col-sm-3"> <a href="https://christuniversity.in/"> <img src="https://christuniversity.in/images/logo.jpg" class="img-responsive main-logo"/></a> </div>
+                <div class="col-lg-9 col-sm-9">  
+        	<div class="first-menu">
+            	<div id='cssmenu'>
+                   <ul>
+                                          <li><a href='http://alumni.christuniversity.in/' target="_blank"> <i class="fa fa-graduation-cap"></i> <span class="txt-top-mnu"> Alumni </span> </a></li>
+                                         <li><a href='http://library.christuniversity.in/home.php#home' target="_blank"> <i class="fa fa-book"></i> <span class="txt-top-mnu"> Library </span> </a></li>
+                                         <li><a href='https://christuniversity.in/careers' > <i class="fa fa-unlock-alt"></i> <span class="txt-top-mnu"> Careers </span> </a></li>
+                                         <li><a href='https://christuniversity.in/center/C/IQAC' > <i class="fa fa-map-marker"></i> <span class="txt-top-mnu"> IQAC </span> </a></li>
+                                         <li><a href='https://christuniversity.in/center/C/International-Students' > <i class="fa fa-globe"></i> <span class="txt-top-mnu"> International </span> </a></li>
+                                         <li><a href='https://christuniversity.in/center' > <i class="fa fa-address-card"></i> <span class="txt-top-mnu"> Centres&Cells </span> </a></li>
+                                         <li><a href='https://christuniversity.in/naac-menu/main%20campus/general%20departments/accreditation/ODUzNQ==' > <i class="fa fa-certificate"></i> <span class="txt-top-mnu"> Accreditation </span> </a></li>
+                                         <li><a href='https://christuniversity-in.translate.goog/?_x_tr_sl=auto&_x_tr_tl=kn&_x_tr_hl=en&_x_tr_pto=wapp' target="_blank"> <i class="fa fa-language"></i> <span class="txt-top-mnu"> <img src="https://christuniversity.in/images/kannada.jpg" /> </span> </a></li>
+                                   <!-- <li> <a href="https://christuniversity.in/"> <i class="fa fa-home "></i> <span class="txt-top-mnu"> Home </span> </a> </li>-->
+<li> <div enableAutoComplete="true" class="search-bar">
+<form class="form-wrapper cf" target="_blank" action="https://christuniversity.in/search"> <input type="text" placeholder="Search here..." name="q" required> <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+</form></div> </li>
+                  
+ </ul>
+                </div>
+            </div>
+        </div>
+            </div>
+</section> 
+ 
+ 
+<section id="updates">  </section> 
+
+
+<section id="main-menubars">
+	<div class="container min-mnu-brr">
+    	<div class="r">
+        <div class="">
+            <div class="mmm-menu">
+  <div class="menu-demo-menu-container">
+    <div id="mega-menu-wrap-demo_navigation" class="mega-menu-wrap">
+      <div class="mega-menu-toggle">
+        <div class="mega-toggle-blocks-left">
+          <div class='mega-toggle-block mega-logo-block mega-toggle-block-1'><a class="mega-menu-logo" href="#" target="_self">Main Menu</a></div>
+        </div>
+       
+        <div class="mega-toggle-blocks-right">
+          
+          <div class='mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-3'>
+            <button aria-label="Toggle Menu" class="mega-toggle-animated mega-toggle-animated-slider" type="button" aria-expanded="false"> <span class="mega-toggle-animated-box"> <span class="mega-toggle-animated-inner"></span> </span> </button>
+          </div>
+        </div>
+      </div>
+      <ul id="mega-menu-demo_navigation" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="slide" data-effect-speed-mobile="200" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="968" data-unbind="true">
+      
+                
+        <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-item-align-float-left mega-disable-link mega-menu-item-92996' id='mega-menu-item-25293'>
+        <a  href="#"  class="mega-menu-link new-clss " tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">
+		About Us<span class="mega-indicator"></span></a><!--new-clss-active-->
+                    <ul class="mega-sub-menu menu_widh_0">             <li class='mega-menu-row mega-singlecolumnmobile' id='mega-menu-25293-0'>
+              <div class="col-sm-6">              	<div class="menu-lists">
+                	<ul class="no-pad">
+           		   
+            			                    	<li><a href="https://christuniversity.in/history" >History & Milestones</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/logo-and-anthem" >Logo & Anthem</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/founder" >Founder</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/vision" >Vision and Mission</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/vc" >Message from Vice Chancellor</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/graduate-attributes" >Graduate Attributes</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/administration" >Administration</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/governance" >Governance</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/disclosures" >Disclosures</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           </ul></div></div><div class="col-sm-6"><div class="menu-lists"><ul class="no-pad">		   
+            			                    	<li><a href="https://christuniversity.in/articles-by-faculty-in-media" >Articles by Faculty in Media</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/recognitions-and-awards" >Recognitions and Awards</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/nep-at-christ-(deemed-to-be-university)" >NEP at CHRIST (Deemed to be University)</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/view-pdf/guidelines-for-entry-and-exit-into-bachelor-and-master-level-programmes" target="_blank">Guidelines for Entry and Exit into Bachelor and Master Level Programmes</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/view-pdf/international-academic-collaborations" target="_blank">International Academic Collaborations</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/accreditation-and-ranking" >Accreditation and Ranking</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+              
+            </ul>
+                </div>
+              </div>
+                          <!--   <div class="col-sm-4">
+              	<img src="https://christuniversity.in/uploads/cmsmenu/medium/aboutus_20200911060357..jpg" class="img-responsive"/>
+              </div>-->
+                          </li>
+            
+          </ul>
+          
+          
+          
+        </li>
+
+                
+        <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-item-align-float-left mega-disable-link mega-menu-item-92996' id='mega-menu-item-25293'>
+        <a  href="javascript:void()"  class="mega-menu-link new-clss " tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">
+		Academics<span class="mega-indicator"></span></a><!--new-clss-active-->
+                    <ul class="mega-sub-menu menu_widh_0">             <li class='mega-menu-row mega-singlecolumnmobile' id='mega-menu-25293-0'>
+              <div class="col-sm-12">              	<div class="menu-lists">
+                	<ul class="no-pad">
+           		   
+            			                                <li><a href="https://christuniversity.in/departments/bangalore%20kengeri%20campus/school%20of%20architecture/school%20of%20architecture" >School of Architecture</a></li>
+                                
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/academics/Main-Campus/school-of-arts-and-humanities" >School of Arts and Humanities</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/academics/Main-Campus/school-of-business-and-management" >School of Business and Management</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/academics/Main-Campus/school-of-commerce,-finance-and-accountancy" >School of Commerce, Finance and Accountancy</a></li>
+                       
+                        
+                
+         
+           		   
+            			                                <li><a href="https://christuniversity.in/departments/main campus/school of education/school of education" >School of Education</a></li>
+                                
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/academics/Bangalore-Kengeri-Campus/school-of-engineering-and-technology" >School of Engineering and Technology</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                                <li><a href="https://christuniversity.in/departments/main%20campus/school%20of%20law/school%20of%20law" >School of Law</a></li>
+                                
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/academics/Main-Campus/school-of-psychological-sciences" >School of Psychological Sciences</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/academics/Main-Campus/school-of-sciences" >School of Sciences</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           </ul></div></div><div class="col-sm-6"><div class="menu-lists"><ul class="no-pad">		   
+            			                    	<li><a href="https://christuniversity.in/academics/Main-Campus/school-of-social-sciences" >School of Social Sciences</a></li>
+                       
+                        
+                
+         
+              
+            </ul>
+                </div>
+              </div>
+                          </li>
+            
+          </ul>
+          
+          
+          
+        </li>
+
+                
+        <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-item-align-float-left mega-disable-link mega-menu-item-92996' id='mega-menu-item-25293'>
+        <a  href="#"  class="mega-menu-link new-clss " tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">
+		Research<span class="mega-indicator"></span></a><!--new-clss-active-->
+                    <ul class="mega-sub-menu menu_widh_0">             <li class='mega-menu-row mega-singlecolumnmobile' id='mega-menu-25293-0'>
+              <div class="col-sm-6">              	<div class="menu-lists">
+                	<ul class="no-pad">
+           		   
+            			                    	<li><a href="https://christuniversity.in/view-pdf/research-conduct-and-ethics-guidelines-for-faculty-and-departments" target="_blank">Research Conduct and Ethics Guidelines</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/view-pdf/research-promotion-policy" target="_blank">Research Promotion Policy</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/center/O/CR" >Doctoral Programmes -PhD</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/uploads/cmsmenu/IRB_Application(Faculty)_20210811033600.docx" target="_blank">IRB Application Form - Faculty Members</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/uploads/cmsmenu/IRB_Application (Students)_20210222044630.docx" target="_blank">IRB Application Form - Students</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/center/O/IPRC/statistics" >Patents</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/center/O/IPRC/copyrightdetails" >Copyrights</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/workshops-and-seminars" >Workshops and Seminars</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/center/C/Research-and-Development-Cell" >Research and Development Cell</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           </ul></div></div><div class="col-sm-6"><div class="menu-lists"><ul class="no-pad">		   
+            			                    	<li><a href="https://christuniversity.in/central-instrumentation-facility" >Central Instrumentation Facility</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/interdisciplinary-science-research" >Interdisciplinary Science Research</a></li>
+                       
+                        
+                
+         
+              
+            </ul>
+                </div>
+              </div>
+                          </li>
+            
+          </ul>
+          
+          
+          
+        </li>
+
+                
+        <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-item-align-float-left mega-disable-link mega-menu-item-92996' id='mega-menu-item-25293'>
+        <a  href="http://library.christuniversity.in/home.php#home" target="_blank" class="mega-menu-link new-clss " tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">
+		Library<span class="mega-indicator"></span></a><!--new-clss-active-->
+            
+          
+        </li>
+
+                
+        <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-item-align-float-left mega-disable-link mega-menu-item-92996' id='mega-menu-item-25293'>
+        <a  href="#"  class="mega-menu-link new-clss " tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">
+		Student Life<span class="mega-indicator"></span></a><!--new-clss-active-->
+                    <ul class="mega-sub-menu menu_widh_0">             <li class='mega-menu-row mega-singlecolumnmobile' id='mega-menu-25293-0'>
+              <div class="col-sm-6">              	<div class="menu-lists">
+                	<ul class="no-pad">
+           		   
+            			                    	<li><a href="https://christuniversity.in/view-pdf/christite2023" target="_blank">Christite 2023</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/view-pdf/academic-calendar-2024-25" target="_blank">Academic Calendar 2024-25</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/view-pdf/faq" target="_blank">On Campus Instructions - FAQ's</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/covid19-guidelines-for-students-of-bangalore-campuses" >COVID 19</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/center/C/hs/peer-education" >Peer Education System</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/view-pdf/student-handbook-2024-25" target="_blank">Student Handbook 2024-25</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/counsellors-details" >Counsellors Details</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/grievance-redressal" >Student Grievance Redressal</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/curegulationsonsubstanceabuse" >CU Regulations on Substance Abuse</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           </ul></div></div><div class="col-sm-6"><div class="menu-lists"><ul class="no-pad">		   
+            			                    	<li><a href="https://christuniversity.in/internal-complaints-committee" >Internal Complaints Committee</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/anti-ragging-cell" >Anti Ragging Cell</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/s-l-equal-opportunity-cell" >Equal Opportunity Cell</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/s-l-internal-committee-for-differently-abled" >Internal Committee for Differently Abled</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/doctors-desk" >From the Doctor's Desk</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/center/C/Scholarship-and-Fellowship-Support-Cell" >Scholarship and Fellowship Support Cell</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/student-life/main-campus/hostel-and-dining" >Student Accommodation</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/alumni-certificate-request-procedure" >Alumni Certificate Request Procedure</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/notices" >Notices and Circulars</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           </ul></div></div><div class="col-sm-6"><div class="menu-lists"><ul class="no-pad">		   
+            			                    	<li><a href="https://christuniversity.in/view-pdf/approval-to-conduct-research-in-the-campus" target="_blank">Approval to Conduct Research in the Campus</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/view-pdf/safety-and-security-of-students-on-campus" target="_blank">Safety and Security of Students on Campus</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/code-of-conduct-for-students" >Code of Conduct for Students</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/center/C/Sports%20and%20Games" >Sports facilities</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/center/C/CPCG" >Placements</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/center" >Student Centres and Cells</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/counsellor-health-services" >Health Services</a></li>
+                       
+                        
+                
+         
+              
+            </ul>
+                </div>
+              </div>
+                          </li>
+            
+          </ul>
+          
+          
+          
+        </li>
+
+                
+        <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-item-align-float-left mega-disable-link mega-menu-item-92996' id='mega-menu-item-25293'>
+        <a  href="#"  class="mega-menu-link new-clss " tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">
+		E - Services<span class="mega-indicator"></span></a><!--new-clss-active-->
+                    <ul class="mega-sub-menu menu_widh_0">             <li class='mega-menu-row mega-singlecolumnmobile' id='mega-menu-25293-0'>
+              <div class="col-sm-6">              	<div class="menu-lists">
+                	<ul class="no-pad">
+           		   
+            			                    	<li><a href="http://192.168.100.100:8090" target="_blank">Internet Login</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://kp.christuniversity.in/KnowledgePro/StudentLogin.do" target="_blank">Student Login</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://kp.christuniversity.in/KnowledgePro/Login.do" target="_blank">Staff Login</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="http://library.christuniversity.in/home.php#home" target="_blank">Library</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/student-web-mail" >Student Web Mail</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default&service=mail&sacu=1&hd=christuniversity.in#identifier" target="_blank">Staff Web Mail</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://courses.christuniversity.in/login/index.php" target="_blank">My Course / LMS</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/e-services-online-payment-portal" >Online Payment Portal</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/nad" >Digilocker Services</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           </ul></div></div><div class="col-sm-6"><div class="menu-lists"><ul class="no-pad">		   
+            			                    	<li><a href="https://christuniversity.in/academic-bank-of-credits" >Academic Bank of Credits (ABC)</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://samadhaan.ugc.ac.in/" target="_blank">e-Samadhan</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="http://decibel.christuniversity.in/" target="_blank">Campus Radio</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/it-regulations" >IT Regulations</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/ssl-certificates" >SSL Certificates</a></li>
+                       
+                        
+                
+         
+              
+            </ul>
+                </div>
+              </div>
+                          </li>
+            
+          </ul>
+          
+          
+          
+        </li>
+
+                
+        <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-item-align-float-left mega-disable-link mega-menu-item-92996' id='mega-menu-item-25293'>
+        <a  href="#"  class="mega-menu-link new-clss " tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">
+		Campuses<span class="mega-indicator"></span></a><!--new-clss-active-->
+                    <ul class="mega-sub-menu ">             <li class='mega-menu-row mega-singlecolumnmobile' id='mega-menu-25293-0'>
+              <div class="col-sm-12">              	<div class="menu-lists">
+                	<ul class="no-pad">
+           		   
+            			                    	<li><a href="https://christuniversity.in/bangalore-central-campus" >Bangalore Central Campus</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/bangalore-bannerghatta-road-campus" >Bangalore Bannerghatta Road Campus</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/bangalore-kengeri-campus" >Bangalore Kengeri Campus</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/bangalore-yeshwanthpur-campus" >Bangalore Yeshwanthpur Campus</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/delhi-ncr-campus" >Delhi NCR Off Campus</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/pune-lavasa-campus" >Pune Lavasa         Off Campus</a></li>
+                       
+                        
+                
+         
+              
+            </ul>
+                </div>
+              </div>
+                          </li>
+            
+          </ul>
+          
+          
+          
+        </li>
+
+                
+        <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-item-align-float-left mega-disable-link mega-menu-item-92996' id='mega-menu-item-25293'>
+        <a  href="#"  class="mega-menu-link new-clss " tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">
+		Visitors<span class="mega-indicator"></span></a><!--new-clss-active-->
+                    <ul class="mega-sub-menu ">             <li class='mega-menu-row mega-singlecolumnmobile' id='mega-menu-25293-0'>
+              <div class="col-sm-12">              	<div class="menu-lists">
+                	<ul class="no-pad">
+           		   
+            			                    	<li><a href="https://christuniversity.in/how-to-reach-christ-university" >How to reach Bangalore Central Campus</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/how-to-reach-christ-kengeri-campus" >How to reach Bangalore Bannerghatta Road Campus</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/how-to-reach-christ-bannerghatta-road-campus" >How to reach Bangalore Kengeri Campus</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/how-to-reach-bangalore-yeshwanthpur-campus" >How to reach Bangalore Yeshwanthpur Campus</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://lavasa.christuniversity.in/how-to-reach-pune-lavasa-campus" target="_blank">How to reach Pune Lavasa Campus</a></li>
+                       
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://ncr.christuniversity.in/how-to-reach-ncr-campus" target="_blank">How to reach Delhi NCR Campus</a></li>
+                       
+                                                <hr class="sep-line" />
+                        
+                
+         
+           		   
+            			                    	<li><a href="https://christuniversity.in/bangalore-guide" >Bangalore Guide</a></li>
+                       
+                        
+                
+         
+              
+            </ul>
+                </div>
+              </div>
+                          </li>
+            
+          </ul>
+          
+          
+          
+        </li>
+
+                
+        <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-right mega-menu-flyout mega-has-icon mega-icon-left mega-hide-on-mobile mega-menu-item-419' id='mega-menu-item-419'>
+          <div class='mega-search-wrap'>
+            <!--<a href="#" class="btn btn-success admissions-bttn">  </a>-->
+            <div class="btn-group show-on-hover">
+          <button type="button" class="btn btn-primary dropdown-toggle admissions-bttn" data-toggle="dropdown"> Admissions <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+          <!--<li> 
+          	<div class="srch-bx23">
+            	<div id="custom-search-input">
+                	<div class="input-group col-md-12">
+                    	<input type="text" class="search-query form-control" placeholder="Search a Course" />
+                        	<span class="input-group-btn">
+                            	<button class="btn btn-danger" type="button">
+                                	<span class=" glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                    </div>
+                </div>
+            </div>	
+            
+            </li>-->
+                        <li ><a  href="https://christuniversity.in/applyonline"  class="admRightMenu">Apply Online / Status</a></li>
+            
+                              
+                        <li ><a  href="https://christuniversity.in/application-queries"  class="admRightMenu">Online Application Queries</a></li>
+            
+                              
+                        <li ><a  href="https://christuniversity.in/id"  class="admRightMenu">Important Disclaimer</a></li>
+            
+                     
+               
+                         <!--<li class="divider"></li>-->
+                         <hr class="sep-line">
+                         
+			                  
+                        <li  class="dvd-emenu11" ><a  href="https://christuniversity.in/view-pdf/cancellation1" target="_blank" class="admRightMenu">Cancellation Policy</a></li>
+            
+                              
+                        <li ><a  href="https://christuniversity.in/2025-ugpgsp"  class="admRightMenu">UG & PG Selection Process 2025 - Detailed Information</a></li>
+            
+                              
+                        <li ><a  href="https://christuniversity.in/2025-mba-admission-process"  class="admRightMenu">MBA Admission Process 2025 - All Relevant Information</a></li>
+            
+                     
+               
+                         <!--<li class="divider"></li>-->
+                         <hr class="sep-line">
+                         
+			                  
+                        <li ><a  href="https://christuniversity.in/center/O/CR"  class="admRightMenu">Doctoral Programmes</a></li>
+            
+                              
+                        <li ><a  href="https://christuniversity.in/noteoncurriculum-and-credit-framework-for-undergraduate-programmes"  class="admRightMenu">Curriculum and Credit Framework for Undergraduate Programmes</a></li>
+            
+                              
+                        <li ><a  href="https://christuniversity.in/admission-all"  class="admRightMenu">Undergraduate & Postgraduate Programmes</a></li>
+            
+                     
+               
+                         <!--<li class="divider"></li>-->
+                         <hr class="sep-line">
+                         
+			                  
+                        <li ><a  href="https://christuniversity.in/cbcs-masters-programme"  class="admRightMenu">Interdisciplinary Masters Programme</a></li>
+            
+                              
+                        <li ><a  href="https://christuniversity.in/center/C/International-Students"  class="admRightMenu">Study in India</a></li>
+            
+                              
+             
+            
+         
+          </ul>
+        </div>
+          </div>
+        </li>
+        
+        
+            
+            
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+<!--<div class="col-2 d-none d-lg-block d-xl-block pt-4"><a href="#" class="btn btn-success admissions-bttn mt-1"> Admissions </a></div>-->
+        </div>
+    </div>
+</section> 
+</div>
+<!--</nav>-->
+</div>
+
+<div class="site-all-content" id="brd-crmp-depp_new" style="scroll-margin-top: 65px !important;">
+
+
+
+<link rel="stylesheet" media="screen" href="https://christuniversity.in/css/ux-style.min.css">
+
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+
+
+<style>
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 5px;
+	right: 0;
+	bottom: 0;
+	width: 97.5%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}</style>
+
+<section id="caps-bnner"> <img src="https://christuniversity.in/uploads/centers/banner/1155424194_2023-12-14_11-23-51.jpg" class="img-responsive comn-bnnr-innr"/>
+  
+  
+
+</section>
+<style>
+#tlec-menu-bar {
+    background: #39639B;
+}
+.top-brder {
+    border-top: 10px solid #283891;
+    border-bottom: 6px solid #3C3C3C;
+}
+#cssmenu2 > ul > li {
+    float: left;
+    margin: auto 7px;
+    width: 10% !important;
+}
+</style>
+
+          
+        <section id="tlec-menu-bar">
+        <div class="top-brder">
+        <div class="container-fluid max-w">
+    	<div id='cssmenu2'>
+                            <ul>
+                       <li><a href='https://christuniversity.in/center/C/Sports and Games' class="home-icon active" style="text-align:center;"> <i class="fa fa-home"></i> </a></li>
+                     
+                                              <li><a href='#'  >Activities</a> 
+                                              <ul style="width: 100%;">
+                       	                        <li><a href="https://christuniversity.in/center/C/SG/pedagogic-league"  style="padding: 11px 15px; width: 100%; font-size: 15px text-decoration: none; color: #fbfafa; font-weight: 400; background: #283891; font-size: 14px;">Pedagogic League</a></li>
+                                                <li><a href="https://christuniversity.in/center/C/SG/chrispo-fest"  style="padding: 11px 15px; width: 100%; font-size: 15px text-decoration: none; color: #fbfafa; font-weight: 400; background: #283891; font-size: 14px;">Chrispo Fest</a></li>
+                                                <li><a href="https://christuniversity.in/center/C/SG/annual-athletic-meet"  style="padding: 11px 15px; width: 100%; font-size: 15px text-decoration: none; color: #fbfafa; font-weight: 400; background: #283891; font-size: 14px;">Annual Athletic Meet</a></li>
+                                                <li><a href="https://christuniversity.in/center/C/SG/staff-sports"  style="padding: 11px 15px; width: 100%; font-size: 15px text-decoration: none; color: #fbfafa; font-weight: 400; background: #283891; font-size: 14px;">Staff Sports</a></li>
+                                                <li><a href="https://christuniversity.in/center/C/SG/inter-class-deanery"  style="padding: 11px 15px; width: 100%; font-size: 15px text-decoration: none; color: #fbfafa; font-weight: 400; background: #283891; font-size: 14px;">Inter Class / Deanery</a></li>
+                                                <li><a href="https://christuniversity.in/center/C/SG/orbit"  style="padding: 11px 15px; width: 100%; font-size: 15px text-decoration: none; color: #fbfafa; font-weight: 400; background: #283891; font-size: 14px;">Orbit</a></li>
+                                                <li><a href="https://christuniversity.in/center/C/SG/south-zone"  style="padding: 11px 15px; width: 100%; font-size: 15px text-decoration: none; color: #fbfafa; font-weight: 400; background: #283891; font-size: 14px;">South Zone</a></li>
+                                               </ul>
+                                              </li>
+                       
+						                       <li><a href='#'  >Support</a> 
+                                              <ul style="width: 100%;">
+                       	                        <li><a href="https://christuniversity.in/center/C/SG/open-electives"  style="padding: 11px 15px; width: 100%; font-size: 15px text-decoration: none; color: #fbfafa; font-weight: 400; background: #283891; font-size: 14px;">Open Electives</a></li>
+                                                <li><a href="https://christuniversity.in/center/C/SG/infrastructure"  style="padding: 11px 15px; width: 100%; font-size: 15px text-decoration: none; color: #fbfafa; font-weight: 400; background: #283891; font-size: 14px;">Infrastructure</a></li>
+                                               </ul>
+                                              </li>
+                       
+						                       <li><a href='#'  >Achievements</a> 
+                                              <ul style="width: 100%;">
+                       	                        <li><a href="https://christuniversity.in/view-center-pdf/2024-achievements"  style="padding: 11px 15px; width: 100%; font-size: 15px text-decoration: none; color: #fbfafa; font-weight: 400; background: #283891; font-size: 14px;">2024 Achievements</a></li>
+                                                <li><a href="https://christuniversity.in/view-center-pdf/2023-achievements"  style="padding: 11px 15px; width: 100%; font-size: 15px text-decoration: none; color: #fbfafa; font-weight: 400; background: #283891; font-size: 14px;">2023 Achievements</a></li>
+                                                <li><a href="https://christuniversity.in/center/C/SG/individuals"  style="padding: 11px 15px; width: 100%; font-size: 15px text-decoration: none; color: #fbfafa; font-weight: 400; background: #283891; font-size: 14px;">Individuals</a></li>
+                                               </ul>
+                                              </li>
+                       
+						                       <li><a href='https://christuniversity.in/center/C/SG/alumni'  >Alumni</a> 
+                                              </li>
+                       
+						                       <li><a href='https://christuniversity.in/center/C/SG/our-team'  >Our Team</a> 
+                                              </li>
+                       
+						                       <li><a href='https://christuniversity.in/center/C/SG/contact'  >Contact</a> 
+                                              </li>
+                       
+						                    </ul>
+	         	</div>
+     	</div>
+     </section> 
+
+                     
+        
+<section id="centr-cap-intro">
+  <div class="container widget_hme2" id="comn-center">
+    <div class="row">
+      <div class="col-sm-12">
+                       <div id="comn-hd-r">
+          <div class="row">
+            <div class="col-sm-12">
+
+
+ <h1 class="serch-hd1"> Introduction </h1>
+             <!-- <h1 class="serch-hd2" style="padding-bottom:10px !important;"> About us </h1>-->
+
+
+
+
+              
+            </div>
+          </div>
+        </div>
+        
+
+
+
+
+
+        <div class="clearfix"></div>
+        <div class="centr-para-default-txt">
+                    <p><br />
+Physical education provides cognitive content and instruction designed to develop motor skills, knowledge, and behaviors for physical activity and physical fitness. Supporting schools to establish physical education daily can provide students with the ability and confidence to be physically active for a lifetime.</p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#006699"><span style="font-size:26px"><strong>UPCOMING EVENTS</strong></span></span></p>
+
+<div class="row two-col">
+<div class="col-md-6 col-1">
+<h2 class="hP" id=":i6">CHRISPO FEST 2022-23<br />
+<a href="https://christuniversity.in/uploads/userfiles/CHRISPO FEST 2022-23.pdf"><img alt="" class="img-responsive" src="https://christuniversity.in/uploads/userfiles/images - Copy.jpg" /></a></h2>
+</div>
+
+<p>&nbsp;</p>
+</div>
+
+<h2 class="hP" id=":i6">&nbsp;</h2>                  </div>
+                <div class="temlate-round-main">
+          <div class="col-sm-1"></div>
+                    <div class="col-sm-1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+ <div class="clearfix">&nbsp</div>
+
+
+
+
+<section id="vsn-msn-dep">
+	<div class="container">
+        	<div class="vsn-msn-bx">
+            	
+                <div class="vsn-msn-bg4">
+                <div class="de-vsn-msn">
+           <div class="vsn-msn-bg-gr"></div>
+                	<div class="col-sm-6">
+                    	<div class="vsn-3">
+                        	<h4>Vision</h4>
+                        	<p><p>To enhance the quality of every student and faculty through physical mental, social, emotional and career development.</p> </p>                           
+                        </div>
+                    </div>	
+                    
+                    <div class="col-sm-6">
+                    	<div class="vsn-3">
+                        	<h4>Mission</h4>
+                        	<p> <ul>
+	<li>To enhance and create awareness on various activities and facilities offered by the Department of Physical Education.</li>
+	<li>To indentify talent at the entry level and create an opportunity to take part in state, national and inter-university competitions.</li>
+	<li>To identify the coaches and provide systematic coaching to the students to build their talents.</li>
+	<li>To ensure maximaum utilisation of all the available sports facilities.</li>
+	<li>To provide incentives and awards to maintain and sustain interest amongst the university sportsperson.</li>
+</ul>  </p>                                                      
+                        </div>
+                    </div>
+                <div class="vsn-msn-bg-gr2"></div>  
+                </div> 
+                </div>
+                
+            </div>
+    </div>
+</section>
+
+
+
+
+
+<section id="temp-join-the-group">
+  <div class="container">
+    <div class="col-sm-12">
+      <div class="temp-join-now-head">
+        <h4>Join the group</h4>
+        <p></p>
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="temp-center-txtbox-wraper">
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-4" style="padding-bottom: 11px;">
+          <input name="joinTextBox" type="text" id="joinTextBox" class="temp-center-join-now" placeholder="Enter Your E-mail ID">
+          <div id="joinMsgDiv" style="display: none;"></div>
+        </div>
+        <div class="col-sm-2"> <a class="btn btn-default temp-center-join-now-btn" > Register </a> </div>
+        <div class="col-sm-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<div class="modal fade" id="myModal_Video" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">
+          <div id="title">
+            <h3>Christ University</h3>
+          </div>
+        </h4>
+      </div>
+      <div class="modal-body">
+        <div id="modalContent"  class="videoBox" style="display:block;"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="socil-medias">
+	<div class="container">
+    	<ul class="no-pad">
+        	<li> <a href="https://www.facebook.com/www.christuniversity.in/?modal=admin_todo_tour" target="_blank"> <img src="https://christuniversity.in/images/social-icons-1.png" class="img-responsive"/> </a> </li>
+            <li> <a href="https://twitter.com/christbangalore" target="_blank"> <img src="https://christuniversity.in/images/social-icons-2.png" class="img-responsive"/> </a> </li>
+            <li> <a href="http://christbangalore.blogspot.com/" target="_blank"> <img src="https://christuniversity.in/images/social-icons-3.png" class="img-responsive"/> </a> </li>
+            <li> <a href="https://www.youtube.com/thechristuniversity" target="_blank"> <img src="https://christuniversity.in/images/social-icons-4.png" class="img-responsive"/> </a> </li>
+            <li> <a href="https://play.google.com/store/apps/developer?id=Christ+University" target="_blank"> <img src="https://christuniversity.in/images/social-icons-5.png" class="img-responsive"/> </a> </li>
+            <li> <a href="https://www.flickr.com/photos/christuniversity/albums" target="_blank"> <img src="https://christuniversity.in/images/social-icons-6.png" class="img-responsive"/> </a> </li>
+  <li> <a href="https://www.instagram.com/christ_university_bangalore/" target="_blank"> <img src="https://christuniversity.in/images/social-icons-7.png" class="img-responsive"/> </a> </li>
+  <li> <a href="https://in.linkedin.com/school/christ-university-bangalore" target="_blank"> <img src="https://christuniversity.in/images/social-icons-8.png" class="img-responsive"/> </a> </li>
+        </ul>
+    </div>
+</section>
+   
+
+
+
+
+<section id="footr">
+	<div class="container">
+    	<div class="col-lg-4 col-sm-6 col-md-4">
+        	<div class="footr-itm-d">
+                <div class="col-sm-12 no-pad" style="padding-left:12px">
+                	<h3><strong>CHRIST</strong></h3>
+                    <h4>(Deemed to be University)</h4>
+                </div>
+                <div class="clearfix"></div>
+                
+                <div class="addrs-itm">
+                <div class="col-lg-2 col-xs-2 col-sm-2 col-md-2">
+                	<i class="las la-map-marker-alt footr-itmff"></i>
+                </div>
+                <div class="col-lg-10 col-xs-10 col-sm-10 col-md-10 no-pad">
+                <p>Dharmaram College Post, Hosur Road, Bengaluru - 560029,<br />
+Karnataka, India</p>
+                </div>
+                </div>
+                <div class="clearfix"></div>
+                                <div class="addrs-itm">
+                <div class="col-lg-2 col-xs-2 col-sm-2 col-md-2">
+                	<i class="las la-phone footr-itmff"></i>
+                </div>
+                <div class="col-lg-10 col-xs-10 col-sm-10 col-md-10 no-pad">
+                <p>Tel: +91 804012 9100 / 9600</p>
+                </div>
+                </div>
+                <div class="clearfix"></div>
+                              
+                                 
+                <div class="addrs-itm">
+                <div class="col-lg-2 col-xs-2 col-sm-2 col-md-2">
+                	<i class="las la-fax footr-itmff"></i>
+                </div>
+                <div class="col-lg-10 col-xs-10 col-sm-10 col-md-10 no-pad">
+                <p>Fax: 40129000</p>
+                </div>
+                </div>
+                <div class="clearfix"></div>
+                                                 <div class="addrs-itm">
+                <div class="col-lg-2 col-xs-2 col-sm-2 col-md-2">
+                	<i class="las la-envelope footr-itmff"></i>
+                </div>
+                <div class="col-lg-10 col-xs-10 col-sm-10 col-md-10 no-pad">
+                <p> Email: mail@christuniversity.in </p>
+                </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                                <div class="addrs-itm">
+                <div class="col-lg-2 col-xs-2 col-sm-2 col-md-2">
+                	<i class="las la-globe footr-itmff"></i>
+                </div>
+                <div class="col-lg-10 col-xs-10 col-sm-10 col-md-10 no-pad">
+                <p> Web: http://www. christuniversity.in </p>
+                </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                
+            </div>
+        </div>
+        
+        
+        <div class="col-lg-3 col-sm-6 col-md-3">  
+        	<div class="vison-mson" >
+        		                <h4>Vision</h4>
+                <p style="font-style:normal"> EXCELLENCE AND SERVICE  </p>
+                                <h4>Mission</h4>
+                <p style="font-style:normal"> CHRIST (Deemed to be University) is a nurturing ground for an individual's holistic development to make effective contribution to the society in a dynamic environment.</p>
+                        	</div>
+        </div>
+                 <div class="clearfix hdsw"></div>
+        <div class="col-lg-2 col-sm-6 col-md-2">
+        	<div class="footr-lnkds">
+            	<ul class="no-pad">
+                                 	<li> <a href="https://christuba.wordpress.com/" target="_blank"> UBA </a> </li>
+                                    	<li> <a href="https://christuniversity.in/fcra" > FCRA </a> </li>
+                                    	<li> <a href="https://alumni.christuniversity.in/" target="_blank"> Alumni </a> </li>
+                                    	<li> <a href="https://christuniversity.in/center/C/IQAC" > IQAC </a> </li>
+                                    	<li> <a href="https://espro.christuniversity.in/Careers/" target="_blank"> Careers </a> </li>
+                                    </ul>
+            </div>
+        </div>
+        
+               <!--          <div class="col-lg-2 col-sm-5 col-md-2"> 
+        	<div class="link-pol">
+            	<ul class="no-pad">
+                                	<li> <a href="http://alumni.christuniversity.in/" target="_blank"> Alumni </a> </li>
+                                  	<li> <a href="https://christuniversity.in/careers" > Careers </a> </li>
+                                  	<li> <a href="https://christuniversity.in/center/C/IQAC" > IQAC </a> </li>
+                                  </ul>
+            </div>
+        </div>   
+        -->
+        
+       <div class="col-lg-2 col-sm-6 col-md-3">   
+          	<div class="footr-lnkds">
+        		<ul>
+                	<li> <a href="http://library.christuniversity.in/"> Library </a> </li>
+                    <li> <a href="https://christuniversity.in/center"> Centres </a> </li>
+                    <li> <a href="https://christuniversity.in/center/O/CR"> Research </a> </li>
+                    <li> <a href="https://christuniversity.in/admission-all"> Admission </a> </li>
+                    <li> <a href="https://christuniversity.in/all-courses"> Course Index </a> </li>
+                </ul>
+            </div>
+       </div> 
+            
+        
+        
+        
+        
+        
+        
+        <div class="cpy-rgt">
+        	<div class="col-sm-5 text-rigt3"> Copyright &copy; CHRIST (Deemed to be University) 2020 | <a href="https://christuniversity.in/privacy-policy" target="_blank">Privacy Policy</a></div>
+            <div class="col-sm-7 text-rigt3"> Website Developed by <a href="http://cloudbusinesspages.com" target="_blank">Cloud Business Pages </a>from 
+            <a href="http://initechnologies.com" target="_blank">INI Technologies Pvt Ltd., Kochi, India</a> </div>
+        </div>
+        
+    </div>
+</section>
+
+</div>  
+
+<a href="#" id="back-to-top"> <i class="fa fa-angle-up"></i> </a>
+    
+
+    
+    
+ 
+<script src="https://christuniversity.in/js/jquery.js"></script>
+<script src="https://christuniversity.in/js/bootstrap.min.js"></script>
+<script src="https://christuniversity.in/js/wow.min.js"></script>
+<script src="https://christuniversity.in/js/lazy-load.js"></script>
+
+<script>
+$('#qckFormCCECBtn').click(function() { 
+var qckName = $('#qckName').val();
+var qckOrg = $('#qckOrg').val();
+var qckDesg = $('#qckDesg').val();
+var qckEmail = $('#qckEmail').val();
+var qckPhone = $('#qckPhone').val();
+var qckQuery = $('#qckQuery').val();
+	$.ajax({
+		type: "POST",
+ 		url: "https://christuniversity.in/php/ajax/ajax_EnqCCEC.php",
+   		data: 'qckName='+qckName+'&qckOrg='+qckOrg+'&qckDesg='+qckDesg+'&qckEmail='+qckEmail+'&qckPhone='+qckPhone+'&qckQuery='+qckQuery+'&center_id='+,
+  		cache: false,
+  		success: function(msg){ 
+			var mss=msg.split('~');
+			if(mss[0]==1)
+			{
+				$('#ccecSucMsg').html('');
+				$('#qckNameErr').html(mss[1]);
+				$('#qckOrgErr').html(mss[2]);
+				$('#qckDesgErr').html(mss[3]);
+				$('#qckEmailErr').html(mss[4]);
+				$('#qckPhoneErr').html(mss[5]);
+				$('#qckQryErr').html(mss[6]);
+				
+			}
+			else if(mss[0]==0)
+			{
+				$('#ccecSucMsg').html(mss[7]);	
+				$('#qckNameErr').html(mss[1]);
+				$('#qckOrgErr').html(mss[2]);
+				$('#qckDesgErr').html(mss[3]);
+				$('#qckEmailErr').html(mss[4]);
+				$('#qckPhoneErr').html(mss[5]);
+				$('#qckQryErr').html(mss[6]);
+			}
+		},
+		error: function(){
+			alert('Server Busy');
+		}
+ 	});	
 });
-    </script> 
+     function stopTestimonialVideo(val)
+	 {
+		// alert(val);
+		$('#videoTestimonial_'+val).get(0).pause();
+   		$('#videoTestimonial_'+val).get(0).currentTime = 0; 
+	 }
+	 function stopTestimonialVideoCat(val)
+	 {
+		// alert(val);
+		$('#videoTestimonialcat_'+val).get(0).pause();
+   		$('#videoTestimonialcat_'+val).get(0).currentTime = 0; 
+	 }
+	 function openVideotestimonialPopup(val)
+	 {
+		$.ajax({
+		type: "POST",
+ 		url: "https://christuniversity.in/php/ajax/ajax_testimonial.php",
+   		data: 'val='+val,
+  		cache: false,
+  		success: function(msg){//alert(msg);
+			var ms=msg.split('~');
+			$('.vidTstCls').html(ms[0]);
+			$('.myModalVTestCls').html(ms[1]);
+			$('#myModalVTest').modal('show'); 
+		},
+		error: function(){
+			alert('Server Busy');
+		}
+ 	});	
+	 }
+	 	 function openVideotestimonialPopupCat(val)
+	 {
+		$.ajax({
+		type: "POST",
+ 		url: "https://christuniversity.in/php/ajax/ajax_testimonialGal.php",
+   		data: 'val='+val,
+  		cache: false,
+  		success: function(msg){//alert(msg);
+			var ms=msg.split('~');
+			$('.vidTstCls1').html(ms[0]);
+			$('.myModalVTestCls1').html(ms[1]);
+			$('#myModalVTest1').modal('show'); 
+		},
+		error: function(){
+			alert('Server Busy');
+		}
+ 	});	
+	 }
+</script>
+
+<!--center-cconsult content page slim scroll-->
+
+<script src="https://christuniversity.in/js/jquery.trackpad-scroll-emulator.min.js"></script>
+<script>
+	$(document).ready(function() {
+	// Initialize scrollers.
+	$('.demo1').TrackpadScrollEmulator();
+	$('.demo2').TrackpadScrollEmulator();
+		
+	$('.add-more').on('click', function(e){
+	e.preventDefault();
+	$('.demo1 .tse-content').append('<p class="odd">Additional content 1</p><p>Additional content 2</p><p p class="odd">Additional content 3</p><p>Additional content 4</p>');
+	$('.demo1').TrackpadScrollEmulator('recalculate');
+	});
+	$('.toggle-height').on('click', function(e){
+      e.preventDefault();
+      if ($('.demo1').height() === 400) {
+        $('.demo1').height(300);
+      } else {
+        $('.demo1').height(400);
+      }
+      $('.demo1').TrackpadScrollEmulator('recalculate');
+    });
+    // Demonstration of changing the horizontal scroller content and dimensions.
+    $('.add-more-horiz').on('click', function(e){
+      e.preventDefault();
+      $('.demo2 .tse-content .boxes').append('<div class="box">A</div><div class="box">B</div><div class="box">C</div><div class="box">D</div>');
+      $('.demo2').TrackpadScrollEmulator('recalculate');
+    });
+    $('.toggle-width').on('click', function(e){
+      e.preventDefault();
+      if ($('.demo2').width() === 600) {
+        $('.demo2').width(500);
+      } else {
+        $('.demo2').width(600);
+      }
+      $('.demo2').TrackpadScrollEmulator('recalculate');
+    });
+  });
+</script>
+
+
+<!--center-cconsult content page slim scroll-->
+
+
+<!--sort oder js-->
+<!--main banner slider-->
+<!--main banner slider-->
+<script type="text/javascript" src="https://christuniversity.in/js/data-tables.js"></script>
+<script type="text/javascript" class="init">
+	$(document).ready(function() {$('#sort-point_1').focus();
+		$('#example').DataTable( { 
+			"order": [[ 3, "desc" ]]
+		} );
+	} );
+	
+	$(document).ready(function() {$('#sort-point_1').focus();
+		$('#example2').DataTable( {
+			"order": [[ 3, "desc" ]],
+			"bPaginate": false
+		} );
+	} );
+	
+	$(document).ready(function() {
+		$('#example3').DataTable( {
+			"order": [[ 3, "desc" ]],
+			"bPaginate": false
+		} );
+	} );
+	
+	$(document).ready(function() {
+		$('#example4').DataTable( {
+			"order": [[ 3, "desc" ]],
+			"bPaginate": false
+		} );
+	} );
+	
+	$(document).ready(function() {
+		$('#example5').DataTable( {
+			"order": [[ 3, "desc" ]],
+			"bPaginate": false
+		} );
+	} );
+	
+	$(document).ready(function() {
+		$('#example6').DataTable( {
+			"order": [[ 3, "desc" ]],
+			"bPaginate": false
+		} );
+	} );
+		$(document).ready(function() {
+		$('#example7').DataTable( {
+			"order": [[ 3, "desc" ]],
+		} );
+	} );
+	$(document).ready(function() {
+		$('#example8').DataTable( {
+			"order": [[ 3, "desc" ]],
+		} );
+	} );
+	 $(document).ready(function() {
+		$('#exampleAdm').DataTable( { 
+			"order": [[ 4, "asc" ]],
+			"bPaginate": false
+		} );
+	} );
+	$(document).ready(function() {
+		$('#example9').DataTable( {
+			"order": [[ 3, "asc" ]],
+			"bPaginate": false
+		} );
+	} );
+
+	
+
+</script>
+
+<!--sort oder js-->
+
+
+
+
+<!--div sliders-->
+<script src="https://christuniversity.in/js/owl.carousel.js"></script>
+<!--div sliders-->
+<script src="https://christuniversity.in/js/common.js"></script>
+<script src="https://christuniversity.in/js/common_2.js"></script>
+<!--Fist menu bar-->
+<script src="https://christuniversity.in/js/nav-bars-script_1.js"></script>
+<script src="https://christuniversity.in/js/nav-bars-script_2.js"></script>
+	
+<!--Fist menu bar-->
+<!--gallery popup-->
+<script>
+function hideParentTab()
+{
+	//alert('trt');
+	$('.parentTabDiv').hide();	
+	$('.chilTabDiv').show();
+}
+function showParentTab()
+{
+	//alert('trt');
+	$('.parentTabDiv').show();	
+	$('.chilTabDiv').hide();
+}
+
+function hideParentTabCOM()
+{
+	//alert('trt');
+	$('.parentTabDivCOM').hide();	
+	$('.chilTabDivCOM').show();
+}
+function showParentTabCOM()
+{
+	//alert('trt');
+	$('.parentTabDivCOM').show();	
+	$('.chilTabDivCOM').hide();
+}
+
+function hideParentTabCou()
+{
+	//alert('trt');
+	$('.parentTabDivCou').hide();	
+	$('.chilTabDivCou').show();
+}
+function showParentTabCou()
+{
+	//alert('trt');
+	$('.parentTabDivCou').show();	
+	$('.chilTabDivCou').hide();
+}
+
+
+
+
+</script>
+<script src="https://christuniversity.in/js/lightgallery-all.min.js"></script> 
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#joinMsgDiv').hide();
+		$('#lightgallery').lightGallery();
+	});
+</script>
+
+<!--gallery popup-->
+<!--mega menu -->
+<script src="https://christuniversity.in/js/hoverIntent-megamenu.js"></script> 
+<script type='text/javascript'>
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script src="https://christuniversity.in/js/maxmegamenu.js"></script>
+<!--mega menu -->
+
+
+
+
+
+
+<!--Denaries departments-->
+<script src="https://christuniversity.in/js/jquery.datetimepicker.js"></script>
+<script>  
+
+
+
+
+
+
+function hideDiv()
+{
+	$('#eventCalItem').hide();	
+	$('#eventCalItem1').hide();	
+	$('.eventDivss').show();
+	$('.eventDivss1').show();
+}
+$(document).ready(function(){ 
+	$('#eventCalItem').hide();
+	$('#eventCalItem1').hide();
+	$(function() {
+    $( "#txtto" ).datetimepicker({ dateFormat: "Y-m-d",timepicker:false });
+	$("#txtto1" ).datetimepicker({ dateFormat: "Y-m-d",timepicker:false });
+    $("#txtto").on("change",function(){
+        var selected = $(this).val();
+		var page='index';
+        $('#eventCalDate').val(selected);
+		$.ajax({
+		type: "POST",
+ 		url: "https://christuniversity.in/php/ajax/ajax_searchEvents.php",
+   		data: 'date='+selected+'&page='+page,
+  		cache: false,
+  		success: function(msg){ 
+			$('.eventDivss').hide();
+			$('#eventCalItem').show();
+			$('#eventCalItem').html(msg);
+			
+			//$(this).addClass("grown");  
+           $('.setactive').removeClass("active");
+		},
+		error: function(){
+			alert('Server Busy');
+		}
+ 	});	
+    });
+	
+	
+
+});
+
+
+	/*$('#txtto').datetimepicker({ 
+		timepicker:false,
+		format:'Y-m-d',
+		scrollInput:false,
+		onClose: function (selectedDate) {
+					$('#eventCalDate').val(selectedDate);
+                },
+		onGenerate:function(){
+			$('.xdsoft_prev').css('visibility','visible');
+			$('.xdsoft_today_button').css('visibility','visible');
+			$('.xdsoft_next').css('visibility','visible');
+			//d1 = $('#txtto').datetimepicker('option','getDate',selected);
+			//alert('dsdsd');
+		},
+	});	*/
+$(".flip").click(function(){
+//$(".panel").toggle();
+});
+});
+/*new code by divu on 28-9-2020*/
+$('.actClr a').click(function(){
+    $('.actClr a').removeClass("activeColor");
+    $(this).addClass("activeColor");
+});
+ $(document).delegate(".flip2","click",function(){
+      $('.flip2').removeClass("activeColor");
+    $(this).addClass("activeColor");
+    });
+	/*ends here*/
+
+
+</script>
+<script>
+	$(document).ready(function() {
+            $(".flip2").click(function() {
+                $(".panel2").toggle();
+               /* $('html, body').animate({
+                    scrollTop: $('#courses').offset().top
+                }, 1000);*/
+            });
+	});
+</script>
+<script> 
+$(document).ready(function(){
+	$('#keywordError').hide();
+	$('#galEr').hide();
+$(".flip2").click(function(){
+//$(".panel2").toggle();
+});
+});
+function checkKeyword()
+{
+	var regexname=/^([a-zA-Z])$/;
+	var valu=$('#courseKeyword').val();//alert(valu);
+	if(valu!='')
+	{
+	if (!valu.match($regexname)) {
+		$('#keywordError').show();	
+		$('#keywordError').html('Search with valid keywords.');	
+		return false;
+	}
+	else
+	{
+	$('#keywordError').html('');	
+	$('#keywordError').hide();		
+	return true;
+	}
+	}
+	else
+	{
+		$('#keywordError').show();	
+		$('#keywordError').html('Search with a keyword.');	
+		return false;
+	}
+}
+function checkKeyword1()
+{
+	var regexname=/^([a-zA-Z])$/;
+	var valu=$('#searchCourse1').val();
+	if(valu=='')
+	{
+		$('#keywordError1').show();	
+		$('#keywordError1').html('Search with a key word.');	
+		return false;
+	}
+	else
+	{
+	if (!valu.match($regexname)) {
+		$('#keywordError1').show();	
+		$('#keywordError1').html('Search with valid keywords.');	
+		return false;
+	}
+	else
+	{
+	$('#keywordError1').html('');	
+	$('#keywordError1').hide();		
+	return true;
+	}
+	}
+}
+
+
+
+function assignGalVal(val,val1)
+{
+	$('#galType').val(val);	
+	$('#galPageId').val(val1);	
+}
+$('.gallerySearch').click(function() {
+	
+	var galType=$('#galType').val();
+	var galSearch=$('#galSearch').val();
+	var galPageId=$('#galPageId').val();
+	//var regexname=/^([a-zA-Z])$/;
+	if(galSearch=='')
+	{
+		//$('#galEr').show();
+		//$('#galEr').html('keyword required');	
+		$('#galSearch').val('');
+		var galSearch='';
+	}
+	/*else if (!galSearch.match($regexname)) {
+		$('#galEr').show();
+		$('#galEr').html('Valid keyword required');
+	}*/
+	/*else 
+	{*/
+		$.ajax({
+		type: "POST",
+ 		url: "https://christuniversity.in/php/ajax/ajax_galary.php",
+   		data: 'galType='+galType+'&keyword='+galSearch+'&galPageId='+galPageId,
+  		cache: false,
+  		success: function(msg){ //alert(msg);
+			var mss=msg.split('~');
+			$('#'+mss[0]).html(mss[1]);
+			$('#galSearch').val('');
+		},
+		error: function(){
+			alert('Server Busy');
+		}
+ 	});			
+	/*}*/
+	
+});
+function submitFormEv()
+{
+	//$('#evntSearch').form.submit();	
+	$('#evntSearch').submit();	
+}
+</script>
+<!--Denaries departments-->
+
+
+
+
+
+
+
+<!-- search filter  on course -->
+ <script>
+ 	// Get the <datalist> and <input> elements.
+function courseSearchFront(vall,division='',category='')
+{
+	//alert(vall);
+var dataList = document.getElementById('json-datalist');
+var input = document.getElementById('courseKeyword');
+if(vall.length >=3)
+{
+// Create a new XMLHttpRequest.
+var request = new XMLHttpRequest();
+// Handle state changes for the request.
+request.onreadystatechange = function(response) {
+  if (request.readyState === 4) {
+    if (request.status === 200) {
+		$('#json-datalist').empty()
+      // Parse the JSON
+      var jsonOptions = JSON.parse(request.responseText);
+      // Loop over the JSON array.
+      jsonOptions.forEach(function(item) {
+        // Create a new <option> element.
+        var option = document.createElement('option');
+        // Set the value using the item in the JSON array.
+        option.value = item;
+        // Add the <option> element to the <datalist>.
+        dataList.appendChild(option);
+      });    
+      // Update the placeholder text.
+      input.placeholder = "Search Keyword";
+    } else {
+      // An error occured :(
+      input.placeholder = "Couldn't load datalist options :(";
+    }
+  }
+};
+
+// Update the placeholder text.
+input.placeholder = "Loading options...";
+
+// Set up and make the request.
+request.open('GET', 'https://christuniversity.in/php/html-elements.php?keyword='+vall+'&division_id='+division+'&category='+category, true);
+request.send();
+}
+else
+{
+dataList.innerHTML = '';
+}
+}
+
+function courseSearchFrontOne(vall,division='',category='')
+{
+var dataList = document.getElementById('json-datalist1');
+var input = document.getElementById('searchCourseByDept_'+category);
+if(vall.length >=3)
+{
+// Create a new XMLHttpRequest.
+var request = new XMLHttpRequest();
+// Handle state changes for the request.
+request.onreadystatechange = function(response) {
+  if (request.readyState === 4) {
+    if (request.status === 200) {
+		$('#json-datalist1').empty()
+      // Parse the JSON
+      var jsonOptions = JSON.parse(request.responseText);
+      // Loop over the JSON array.
+      jsonOptions.forEach(function(item) {
+        // Create a new <option> element.
+        var option = document.createElement('option');
+        // Set the value using the item in the JSON array.
+        option.value = item;
+        // Add the <option> element to the <datalist>.
+        dataList.appendChild(option);
+      });    
+      // Update the placeholder text.
+      input.placeholder = "Search Keyword";
+    } else {
+      // An error occured :(
+      input.placeholder = "Couldn't load datalist options :(";
+    }
+  }
+};
+
+// Update the placeholder text.
+input.placeholder = "Loading options...";
+
+// Set up and make the request.
+request.open('GET', 'https://christuniversity.in/php/html-elements.php?keyword='+vall+'&division_id='+division+'&category='+category, true);
+request.send();
+}
+else
+{
+dataList.innerHTML = '';
+}
+}
+function clearTextBox()
+{
+	$(this).val("");
+}
+ </script>
+ <!-- course list by dept on search -->
+<!-- <script
+			  src="https://code.jquery.com/jquery-3.5.1.min.js"
+			  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+			  crossorigin="anonymous"></script>-->
+ <script>
+ 	function loadCoursesbyCat(val)
+	{
+		var keyword	=	$('#searchCourseByDept_'+val).val();	//alert(keyword);
+		var campusid	=	$('#campus_idbyDept_'+val).val();
+		var catId		=	val;
+		//alert(campusid);
+		$.ajax({
+		type: "POST",
+ 		url: "https://christuniversity.in/php/ajax/ajax_course_search.php",
+   		data: 'keyword='+keyword+'&campusid='+campusid+'&catId='+catId,
+  		cache: false,
+  		success: function(msg){ //alert(msg);
+			var mss=msg.split('~');
+			$('#courseSearchResultDiv_'+mss[0]).html(mss[1]);
+		},
+		error: function(){
+			alert('Server Busy');
+		}
+ 	});			
+	}
+	function clearSearchCourse(val)
+	{
+		var keyword		=	'';	
+		var campusid	=	'';
+		var catId		=	val;
+		$.ajax({
+		type: "POST",
+ 		url: "https://christuniversity.in/php/ajax/ajax_course_search.php",
+   		data: 'keyword='+keyword+'&campusid='+campusid+'&catId='+catId,
+  		cache: false,
+  		success: function(msg){ //alert(msg);
+			var mss=msg.split('~');
+			var keyword	=	$('#searchCourseByDept_'+mss[0]).val('');	
+			var campusid	=	$('#campus_idbyDept_'+mss[0]).val('');
+			$('#courseSearchResultDiv_'+mss[0]).html(mss[1]);
+		},
+		error: function(){
+			alert('Server Busy');
+		}
+ 	});		
+	}
+	
+	
+	
+$(document).ready(function(){
+$('.eligibilityPopup').click(function() {
+		alert('gfgf');
+	});
+});
+function openpopupAdm(course_id,type)
+{
+	//alert('gfgfhhh');
+	var course_id = course_id;
+	var type = type;	
+	//alert(course_id);
+	$.ajax({
+			type: "POST",
+			url: "https://christuniversity.in/php/ajax/ajax_admissionPopup.php",
+			data: 'course_id='+course_id+'&type='+type,
+			cache: false,
+			success: function(msg){ 
+			/*modalEligibility
+			$('.modal-body').html(response);
+			$('#modalEligibility').modal('show'); 
+			*/
+			$('#eligibilityBody').html(msg);
+			$('#exampleModalLabel').html(type);
+			$('#modalEligibility').modal('show');	
+			},
+			error: function(){
+				alert('Server Busy');
+			}
+ 	});
+}
+function getCenterResearchContent(content_id,urlparam,centerUrl)
+{
+	$.ajax({
+			type: "POST",
+			url: "https://christuniversity.in/php/ajax/ajax_ResearchContent.php",
+			data: 'content_id='+content_id+'&urlparam='+urlparam+'&centerUrl='+centerUrl,
+			cache: false,
+			success: function(msg){ 
+			//var ms=msg.split('~');
+			//$('#researchCenterContent').toggle();
+			$('#researchCenterContent').html(msg);
+			if($("#researchCenterContent").is(':visible'))
+			{
+				$('#researchCenterContent').html(msg);
+				 $('html, body').animate({
+                    scrollTop: $('#owl-demo-400').offset().top
+                }, 1000);
+			}
+			else
+			{
+				$('#researchCenterContent').toggle();
+			}
+			//$('#researchCenterContent').html(msg);
+			},
+			error: function(){
+				alert('Server Busy');
+			}
+ 	});	
+}
+function showAdmDetPopup(val,division_id)
+{
+	$('.admPopupDetDivSection').hide();
+	$(".liPopupDivClass").removeClass( "active" );
+	$('#liPopupLi_'+division_id+'_'+val).addClass( "active" );
+	$('#tabAjax_'+division_id+'_'+val).show();
+}
+function openpopupAdmSplMenu(course_id,type)
+{
+	//alert('gfgfhhh');
+	var course_id = course_id;
+	var type = type;	
+	//alert(course_id);
+	$.ajax({
+			type: "POST",
+			url: "https://christuniversity.in/php/ajax/ajax_admissionSplMenuPopup.php",
+			data: 'course_id='+course_id+'&type='+type,
+			cache: false,
+			success: function(ms){ 
+			var msg=ms.split('~');
+			/*modalEligibility
+			$('.modal-body').html(response);
+			$('#modalEligibility').modal('show'); 
+			*/
+			$('#eligibilityBody').html(msg[1]);
+			$('#exampleModalLabel').html(msg[0]);
+			$('#modalEligibility').modal('show');	
+			},
+			error: function(){
+				alert('Server Busy');
+			}
+ 	});
+}
+ </script>
+
+<script>
+  jQuery(document).ready(function($) {
+ 
+        $('#myCarousel').carousel({
+                interval: 5000
+        });
+ 
+        //Handles the carousel thumbnails
+        $('[id^=carousel-selector-]').click(function () {
+        var id_selector = $(this).attr("id");
+        try {
+            var id = /-(\d+)$/.exec(id_selector)[1];
+            console.log(id_selector, id);
+            jQuery('#myCarousel').carousel(parseInt(id));
+        } catch (e) {
+            console.log('Regex failed!', e);
+        }
+    });
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+
+});
+
+
+  jQuery(document).ready(function($) {
+ 
+        $('#myCarouselSt').carousel({
+                interval: 5000
+        });
+ 
+        //Handles the carousel thumbnails
+        $('[id^=carousel-selector-]').click(function () {
+        var id_selector = $(this).attr("id");
+        try {
+            var id = /-(\d+)$/.exec(id_selector)[1];
+            console.log(id_selector, id);
+            jQuery('#myCarouselSt').carousel(parseInt(id));
+        } catch (e) {
+            console.log('Regex failed!', e);
+        }
+    });
+        // When the carousel slides, auto update the text
+        $('#myCarouselSt').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+
+});
+
+
+
+</script>
+<!--Tab vertical slider--> 
+<script type='text/javascript' src='https://christuniversity.in/js/amazingcarousel.js' id='amazingcarousel-script-js'></script>
+<script src="https://christuniversity.in/js/initcarousel.js"></script>
+<!--Tab vertical slider-->
+
+<script src="https://christuniversity.in/js/readMoreJS.min.js" type="text/javascript"></script>
+<script>
+$readMoreJS.init({
+   target: '.dummy p',           // Selector of the element the plugin applies to (any CSS selector, eg: '#', '.'). Default: ''
+   numOfWords: 50,               // Number of words to initially display (any number). Default: 50
+   toggle: true,                 // If true, user can toggle between 'read more' and 'read less'. Default: true
+   moreLink: 'read more ...',    // The text of 'Read more' link. Default: 'read more ...'
+   lessLink: 'read less'         // The text of 'Read less' link. Default: 'read less'
+});
+
+</script>
+  
+
+</body>
+</html>
+
+<script>
+	function submitJoinForm()
+	{
+		var email = $('#joinTextBox').val();
+		var sep = 'JOIN_NOW';
+		var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+		if(!regex.test(email))
+		{
+			$('#joinMsgDiv').show();
+			$('#joinMsgDiv').css('color','red');
+			$('#joinMsgDiv').html('Invalid E-mail');	
+		}
+		else
+		{
+			$.ajax({
+			type: "POST",
+			url: "https://christuniversity.in/php/ajax/ajax_master.php",
+			data: 'email='+email+'&seperator='+sep,
+			cache: false,
+			success: function(msg){
+			$('#joinMsgDiv').show();
+			$('#joinMsgDiv').css('color','green');
+			$('#joinMsgDiv').html('Suscribed successfully');	
+			},
+		error: function(){
+			alert('Server Busy');
+		}
+ 	});		
+		}
+	}
+</script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+<script>
+$(".publicatModelvideo").click(function()
+ {   
+        var id = $(this).attr('id');
+		$.ajax({
+            cache: false,
+            type: "POST",
+            url: "https://christuniversity.in/php/ajax/ajax_video.php",
+            data: 'id='+id+'&type=CENTER_VIDEO',
+            success: function(msg) 
+            {     
+			     
+				 var ArrNames = msg.split("~");
+                 var video = ArrNames[0];
+                 var title = ArrNames[1];
+				 //$('#myModal').show();
+				 $('#myModal').modal('show');
+                 $('#modalContent').show().html(video);
+				 $('#title').show().html(title);
+				
+            }
+        });
+    });
+	
+</script>
+
+<script src="https://christuniversity.in/js/ux-script.min.js"></script>
